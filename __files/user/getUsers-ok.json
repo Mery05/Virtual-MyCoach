@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Miriam",
+    "surname": "Fernandez",
+    "bithDate": "15-05-1983",
+    "weight": 70,
+    "active": true
+  },
+  {
+    "id": 2,
+    "name": "Pablo",
+    "surname": "Vazquez",
+    "bithDate": "28-06-1989",
+    "weight": 85,
+    "active": true
+  }
+]

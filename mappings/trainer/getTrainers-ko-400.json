@@ -1,0 +1,14 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "GET",
+    "url": "/trainer"
+  },
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "trainer/getTrainers-ko-400.json"
+  }
+}

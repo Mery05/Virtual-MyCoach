@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "BeOne",
+    "city": "Baiona",
+    "address": "Calle Rosalia de Castro 8",
+    "enrollmentNumber": 10,
+    "classNumber": 16
+  },
+  {
+    "id": 2,
+    "name": "GinPlaza",
+    "city": "Vigo",
+    "address": "Avenida Camelias, 13",
+    "enrollmentNumber": 14,
+    "classNumber": 25
+  }
+]

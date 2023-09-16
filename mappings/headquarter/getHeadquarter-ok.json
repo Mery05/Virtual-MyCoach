@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/headquarter/1"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "headquarter/getHeadquarter-ok.json"
+  }
+}

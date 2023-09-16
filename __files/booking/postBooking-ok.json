@@ -1,0 +1,8 @@
+{
+  "id": 2,
+  "bookingDate": "16-09-2023",
+  "starTime": "09:00",
+  "duration": 60,
+  "tools": true,
+  "paid": true
+}

@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/bookings"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "booking/getBookings-ok.json"
+  }
+}

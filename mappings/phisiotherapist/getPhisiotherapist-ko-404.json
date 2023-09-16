@@ -1,0 +1,14 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/phisiotherapist/12"
+  },
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "phisiotherapist/getPhisiotherapist-ko-404.json"
+  }
+}

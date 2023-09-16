@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "bookingDate": "13-05-2023",
+    "starTime": "16:00",
+    "duration": 60,
+    "tools": false,
+    "paid": true
+  },
+  {
+    "id": 2,
+    "bookingDate": "16-09-2023",
+    "starTime": "09:00",
+    "duration": 60,
+    "tools": true,
+    "paid": true
+  }
+]

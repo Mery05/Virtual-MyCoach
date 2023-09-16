@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/headquarters"
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "headquarter/postHeadquarter-ok.json"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "DELETE",
+    "url": "/phisiotherapist/12"
+  },
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "phisiotherapist/deletePhisiotherapist-ko-404.json"
+  }
+}
