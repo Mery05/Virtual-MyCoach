@@ -1,0 +1,1548 @@
+{
+	"info": {
+		"_postman_id": "a23492d6-cbc3-4f46-bad0-6e9cda8a844e",
+		"name": "WireMock",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Trainer",
+			"item": [
+				{
+					"name": "Trainer KO 404",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/trainer/12",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"trainer",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Trainer KO 500",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/trainer/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"trainer",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Trainer OK",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/trainer/9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"trainer",
+								"9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Trainer KO 404",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Trainer KO 500",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/trainer/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"trainer",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Trainer OK",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/trainer/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"trainer",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Trainers KO 400",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/trainer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"trainer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Trainers KO 500",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/trainer/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"trainer",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Trainers OK",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Trainer KO 400",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/trainer/12",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"trainer",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Trainer KO 500",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/trainer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"trainer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Trainer OK",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n   \"id\": 2,\r\n   \"name\": \"Carlos\",\r\n   \"surname\": \"Figueroa\",\r\n   \"hiringDate\": \"22-01-2023\",\r\n   \"available\": true,\r\n   \"price\": 25\r\n }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/trainers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"trainers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Trainer KO 404",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/trainer/12",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"trainer",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Trainer KO 500",
+					"request": {
+						"method": "PUT",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Trainer OK",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 2,\r\n  \"name\": \"Carlos\",\r\n  \"surname\": \"Rodriguez\",\r\n  \"hiringDate\": \"22-01-2023\",\r\n  \"available\": true,\r\n  \"price\": 25\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/trainer/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"trainer",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Phisiotherapist",
+			"item": [
+				{
+					"name": "Phisiotherapist KO 404",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/phisiotherapist/12",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"phisiotherapist",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Phisiotherapist KO 500",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/phisiotherapist/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"phisiotherapist",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Phisiotherapist OK",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/phisiotherapist/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"phisiotherapist",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Phisiotherapist KO 404",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/phisiotherapist/12",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"phisiotherapist",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Phisiotherapist KO 500",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/phisiotherapist/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"phisiotherapist",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Phisiotherapist OK",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/phisiotherapist/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"phisiotherapist",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Phisiotherapists KO 400",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/phisiotherapists/12",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"phisiotherapists",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Phisiotherapists KO 500",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Phisiotherapists OK",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/phisiotherapists",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"phisiotherapists"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Phisiotherapist KO 400",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 2,\r\n  \"name\": \"Fernando\",\r\n  \"surname\": \"Garcia\",\r\n  \"hiringDate\": \"05-08-2023\",\r\n  \"available\": true,\r\n  \"price\": 20\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/phisiotherapist/12",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"phisiotherapist",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Phisiotherapist KO 500",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 2,\r\n  \"name\": \"Fernando\",\r\n  \"surname\": \"Garcia\",\r\n  \"hiringDate\": \"05-08-2023\",\r\n  \"available\": true,\r\n  \"price\": 20\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/phisiotherapist/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"phisiotherapist",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Phisiotherapist OK",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 2,\r\n  \"name\": \"Fernando\",\r\n  \"surname\": \"Garcia\",\r\n  \"hiringDate\": \"05-08-2023\",\r\n  \"available\": true,\r\n  \"price\": 20\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/phisiotherapists",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"phisiotherapists"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Phisiotherapist KO 404",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/phisiotherapist/12",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"phisiotherapist",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Phisiotherapist KO 500",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/phisiotherapist/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"phisiotherapist",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Phisiotherapist OK",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 3,\r\n  \"name\": \"Miguel\",\r\n  \"surname\": \"Chandebrito\",\r\n  \"hiringDate\": \"10-05-2023\",\r\n  \"available\": false,\r\n  \"price\": 20\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "/phisiotherapist/3",
+							"path": [
+								"phisiotherapist",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "User KO 500",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/user/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"user",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User KO 404",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/user/12",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"user",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User OK",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/user/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"user",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User KO 500",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/user/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"user",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User KO 404",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/user/12",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"user",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User Ok",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/user/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"user",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Users KO 500",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/users500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Users KO 400",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Users OK",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User KO 500",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/user/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"user",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User KO 400",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/user/12",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"user",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User OK",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 2,\r\n  \"name\": \"Pablo\",\r\n  \"surname\": \"Vazquez\",\r\n  \"bithDate\": \"28-06-1989\",\r\n  \"weight\": 85,\r\n  \"active\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User KO 404",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/user/12",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"user",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User KO 500",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/user/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"user",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User OK",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 2,\r\n  \"name\": \"Pablo\",\r\n  \"surname\": \"Vazquez\",\r\n  \"bithDate\": \"28-06-1989\",\r\n  \"weight\": 80,\r\n  \"active\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/user/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"user",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Headquarter",
+			"item": [
+				{
+					"name": "Headquarter KO 500",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/headquarter/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"headquarter",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Headquarter KO 404",
+					"request": {
+						"method": "DELETE",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Headquarter OK",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/headquarter/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"headquarter",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Headquarter KO 500",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/headquarter/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"headquarter",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Headquarter KO 404",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/headquarter/12",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"headquarter",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Headquarter OK",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/headquarter/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"headquarter",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Headquarters KO 500",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/headquarters500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"headquarters500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Headquarters KO 400",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/headquarter",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"headquarter"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Headquarters OK",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/headquarters",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"headquarters"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Headquarter KO 500",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/headquarter/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"headquarter",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Headquarter KO 400",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/headquarter/12",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"headquarter",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Headquarter OK",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 2,\r\n  \"name\": \"GinPlaza\",\r\n  \"city\": \"Vigo\",\r\n  \"address\": \"Avenida Camelias, 13\",\r\n  \"enrollmentNumber\": 14,\r\n  \"classNumber\": 25\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/headquarters",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"headquarters"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Headquarter KO 500",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/headquarter/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"headquarter",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Headquarter KO 404",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/headquarter/12",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"headquarter",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Headquarter OK",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 2,\r\n  \"name\": \"GinPlaza\",\r\n  \"city\": \"Vigo\",\r\n  \"address\": \"Avenida Camelias, 13\",\r\n  \"enrollmentNumber\": 13,\r\n  \"classNumber\": 25\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/headquarter/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"headquarter",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Booking",
+			"item": [
+				{
+					"name": "Booking KO 500",
+					"request": {
+						"method": "DELETE",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Booking KO 404",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/booking/12",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"booking",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Booking OK",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/booking/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"booking",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Booking KO 500",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/booking/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"booking",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Booking KO 404",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/booking/12",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"booking",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Booking OK",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/booking/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"booking",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Bookings KO 500",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/bookings500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"bookings500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Bookings KO 400",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/booking",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"booking"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Bookings OK",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/bookings",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"bookings"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Booking KO 500",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/booking/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"booking",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Booking KO 400",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/booking/12",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"booking",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Booking OK",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 2,\r\n  \"bookingDate\": \"16-09-2023\",\r\n  \"starTime\": \"09:00\",\r\n  \"duration\": 60,\r\n  \"tools\": true,\r\n  \"paid\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/bookings",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"bookings"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Booking KO 500",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/booking/500",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"booking",
+								"500"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Booking KO 404",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/booking/12",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"booking",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Booking OK",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 2,\r\n  \"bookingDate\": \"16-09-2023\",\r\n  \"starTime\": \"10:00\",\r\n  \"duration\": 60,\r\n  \"tools\": true,\r\n  \"paid\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/booking/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"booking",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
